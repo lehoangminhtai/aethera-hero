@@ -13,11 +13,14 @@ const Index = () => {
       <VideoBackground />
       <Navbar />
       <HeroSection />
-      <ProjectsSection />
-      <SkillsSection />
-      <AboutSection />
-      <ContactSection />
-      <Footer />
+      {/* Solid background for content sections below hero */}
+      <div className="relative z-10 bg-background">
+        <ProjectsSection />
+        <SkillsSection />
+        <AboutSection />
+        <ContactSection />
+        <Footer />
+      </div>
     </div>
   );
 };
