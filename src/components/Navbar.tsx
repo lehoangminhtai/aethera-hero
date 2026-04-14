@@ -1,11 +1,11 @@
 import React from 'react';
 
 const navItems = [
-  { label: 'Home', active: true },
-  { label: 'Studio', active: false },
-  { label: 'About', active: false },
-  { label: 'Journal', active: false },
-  { label: 'Reach Us', active: false },
+  { label: 'Home', href: '#', active: true },
+  { label: 'Projects', href: '#projects', active: false },
+  { label: 'Skills', href: '#skills', active: false },
+  { label: 'About', href: '#about', active: false },
+  { label: 'Contact', href: '#contact', active: false },
 ];
 
 const Navbar: React.FC = () => {
@@ -20,7 +20,7 @@ const Navbar: React.FC = () => {
           {navItems.map((item) => (
             <li key={item.label}>
               <a
-                href="#"
+                href={item.href}
                 className={`text-sm font-body transition-colors hover:text-hero-black ${
                   item.active ? 'text-hero-black' : 'text-hero-gray'
                 }`}
@@ -31,9 +31,9 @@ const Navbar: React.FC = () => {
           ))}
         </ul>
 
-        <button className="rounded-full px-6 py-2.5 text-sm bg-hero-black text-hero-white font-body transition-transform hover:scale-[1.03]">
-          Begin Journey
-        </button>
+        <a href="#contact" className="rounded-full px-6 py-2.5 text-sm bg-hero-black text-hero-white font-body transition-transform hover:scale-[1.03]">
+          Get in Touch
+        </a>
       </div>
     </nav>
   );

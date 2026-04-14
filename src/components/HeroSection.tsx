@@ -10,19 +10,19 @@ const HeroSection: React.FC = () => {
         className="font-display text-5xl sm:text-7xl md:text-8xl font-normal max-w-7xl animate-fade-rise"
         style={{ lineHeight: 0.95, letterSpacing: '-2.46px' }}
       >
-        <span className="text-hero-black">Beyond </span>
-        <span className="text-hero-gray italic">silence,</span>
-        <span className="text-hero-black"> we build </span>
-        <span className="text-hero-gray italic">the eternal.</span>
+        <span className="text-hero-black">Crafting </span>
+        <span className="text-hero-gray italic">digital </span>
+        <span className="text-hero-black">experiences </span>
+        <span className="text-hero-gray italic">that matter.</span>
       </h1>
 
       <p className="font-body text-base sm:text-lg max-w-2xl mt-8 leading-relaxed text-hero-gray animate-fade-rise-delay">
-        Building platforms for brilliant minds, fearless makers, and thoughtful souls. Through the noise, we craft digital havens for deep work and pure flows.
+        Full-stack developer building performant, elegant applications. I turn complex problems into clean, intuitive solutions with modern technologies.
       </p>
 
-      <button className="rounded-full px-14 py-5 text-base bg-hero-black text-hero-white font-body mt-12 transition-transform hover:scale-[1.03] animate-fade-rise-delay-2">
-        Begin Journey
-      </button>
+      <a href="#projects" className="rounded-full px-14 py-5 text-base bg-hero-black text-hero-white font-body mt-12 transition-transform hover:scale-[1.03] animate-fade-rise-delay-2">
+        View My Work
+      </a>
     </section>
   );
 };
