@@ -13,7 +13,14 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        display: ['"Instrument Serif"', 'serif'],
+        body: ['"Inter"', 'sans-serif'],
+      },
       colors: {
+        'hero-black': '#000000',
+        'hero-gray': '#6F6F6F',
+        'hero-white': '#FFFFFF',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
