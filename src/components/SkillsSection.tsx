@@ -23,7 +23,7 @@ const SkillsSection: React.FC = () => {
   return (
     <section id="skills" className="relative z-10 px-8 py-32 max-w-7xl mx-auto">
       <div className="mb-16">
-        <p className="text-sm font-body text-hero-gray tracking-widest uppercase mb-4">Expertise</p>
+        <p className="text-sm font-body text-hero-black tracking-widest uppercase mb-4">Expertise</p>
         <h2 className="font-display text-4xl sm:text-5xl md:text-6xl text-hero-black" style={{ letterSpacing: '-1.5px' }}>
           Skills & Tools
         </h2>
@@ -35,7 +35,7 @@ const SkillsSection: React.FC = () => {
             <h3 className="font-display text-xl text-hero-black mb-6">{category.title}</h3>
             <ul className="space-y-3">
               {category.skills.map((skill) => (
-                <li key={skill} className="font-body text-hero-gray text-sm flex items-center gap-2">
+                <li key={skill} className="font-body text-hero-black text-sm flex items-center gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-hero-black/30" />
                   {skill}
                 </li>

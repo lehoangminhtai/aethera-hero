@@ -31,7 +31,7 @@ const ProjectsSection: React.FC = () => {
   return (
     <section id="projects" className="relative z-10 px-8 py-32 max-w-7xl mx-auto">
       <div className="mb-16">
-        <p className="text-sm font-body text-hero-gray tracking-widest uppercase mb-4">Selected Work</p>
+        <p className="text-sm font-body text-hero-black tracking-widest uppercase mb-4 opacity-0.5">Selected Work</p>
         <h2 className="font-display text-4xl sm:text-5xl md:text-6xl text-hero-black" style={{ letterSpacing: '-1.5px' }}>
           Projects
         </h2>
@@ -41,18 +41,18 @@ const ProjectsSection: React.FC = () => {
         {projects.map((project) => (
           <div
             key={project.title}
-            className="group border border-border rounded-2xl p-8 transition-all duration-300 hover:border-hero-black/20 hover:shadow-lg cursor-pointer"
+            className=" group border border-border rounded-2xl p-8 transition-all duration-300 hover:border-hero-black/20 hover:shadow-lg cursor-pointer"
           >
             <div className="flex items-start justify-between mb-4">
               <h3 className="font-display text-2xl text-hero-black">{project.title}</h3>
-              <span className="text-sm font-body text-hero-gray">{project.year}</span>
+              <span className="text-sm font-body text-hero-black">{project.year}</span>
             </div>
-            <p className="font-body text-hero-gray leading-relaxed mb-6">{project.description}</p>
+            <p className="font-body text-hero-black leading-relaxed mb-6">{project.description}</p>
             <div className="flex flex-wrap gap-2">
               {project.tags.map((tag) => (
                 <span
                   key={tag}
-                  className="text-xs font-body px-3 py-1 rounded-full border border-border text-hero-gray"
+                  className="text-xs font-body px-3 py-1 rounded-full border border-border text-hero-black"
                 >
                   {tag}
                 </span>

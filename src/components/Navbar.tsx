@@ -22,7 +22,7 @@ const Navbar: React.FC = () => {
               <a
                 href={item.href}
                 className={`text-sm font-body transition-colors hover:text-hero-black ${
-                  item.active ? 'text-hero-black' : 'text-hero-gray'
+                  item.active ? 'text-hero-black' : 'text-hero-black'
                 }`}
               >
                 {item.label}

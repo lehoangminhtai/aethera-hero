@@ -11,12 +11,12 @@ const HeroSection: React.FC = () => {
         style={{ lineHeight: 0.95, letterSpacing: '-2.46px' }}
       >
         <span className="text-hero-black">Crafting </span>
-        <span className="text-hero-gray italic">digital </span>
+        <span className="text-hero-black italic">digital </span>
         <span className="text-hero-black">experiences </span>
-        <span className="text-hero-gray italic">that matter.</span>
+        <span className="text-hero-black italic">that matter.</span>
       </h1>
 
-      <p className="font-body text-base sm:text-lg max-w-2xl mt-8 leading-relaxed text-hero-gray animate-fade-rise-delay">
+      <p className="font-body text-base sm:text-lg max-w-2xl mt-8 leading-relaxed text-hero-black animate-fade-rise-delay">
         Full-stack developer building performant, elegant applications. I turn complex problems into clean, intuitive solutions with modern technologies.
       </p>
 

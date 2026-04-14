@@ -4,10 +4,10 @@ const ContactSection: React.FC = () => {
   return (
     <section id="contact" className="relative z-10 px-8 py-32 max-w-7xl mx-auto">
       <div className="text-center mb-16">
-        <p className="text-sm font-body text-hero-gray tracking-widest uppercase mb-4">Contact</p>
+        <p className="text-sm font-body text-hero-black tracking-widest uppercase mb-4">Contact</p>
         <h2 className="font-display text-4xl sm:text-5xl md:text-6xl text-hero-black" style={{ letterSpacing: '-1.5px' }}>
           Let's build something<br />
-          <span className="text-hero-gray italic">together.</span>
+          <span className="text-hero-black italic">together.</span>
         </h2>
       </div>
 
@@ -17,23 +17,23 @@ const ContactSection: React.FC = () => {
             <input
               type="text"
               placeholder="Name"
-              className="w-full px-5 py-4 rounded-xl border border-border bg-background font-body text-sm text-hero-black placeholder:text-hero-gray/50 focus:outline-none focus:border-hero-black/30 transition-colors"
+              className="w-full px-5 py-4 rounded-xl border border-border bg-background font-body text-sm text-hero-black placeholder:text-hero-black/50 focus:outline-none focus:border-hero-black/30 transition-colors"
             />
             <input
               type="email"
               placeholder="Email"
-              className="w-full px-5 py-4 rounded-xl border border-border bg-background font-body text-sm text-hero-black placeholder:text-hero-gray/50 focus:outline-none focus:border-hero-black/30 transition-colors"
+              className="w-full px-5 py-4 rounded-xl border border-border bg-background font-body text-sm text-hero-black placeholder:text-hero-black/50 focus:outline-none focus:border-hero-black/30 transition-colors"
             />
           </div>
           <input
             type="text"
             placeholder="Subject"
-            className="w-full px-5 py-4 rounded-xl border border-border bg-background font-body text-sm text-hero-black placeholder:text-hero-gray/50 focus:outline-none focus:border-hero-black/30 transition-colors"
+            className="w-full px-5 py-4 rounded-xl border border-border bg-background font-body text-sm text-hero-black placeholder:text-hero-black/50 focus:outline-none focus:border-hero-black/30 transition-colors"
           />
           <textarea
             rows={5}
             placeholder="Your message..."
-            className="w-full px-5 py-4 rounded-xl border border-border bg-background font-body text-sm text-hero-black placeholder:text-hero-gray/50 focus:outline-none focus:border-hero-black/30 transition-colors resize-none"
+            className="w-full px-5 py-4 rounded-xl border border-border bg-background font-body text-sm text-hero-black placeholder:text-hero-black/50 focus:outline-none focus:border-hero-black/30 transition-colors resize-none"
           />
           <button
             type="submit"

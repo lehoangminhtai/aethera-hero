@@ -13,14 +13,14 @@ const Footer: React.FC = () => {
             <a
               key={link}
               href="#"
-              className="text-sm font-body text-hero-gray transition-colors hover:text-hero-black"
+              className="text-sm font-body text-hero-black transition-colors hover:text-hero-black"
             >
               {link}
             </a>
           ))}
         </div>
 
-        <p className="text-sm font-body text-hero-gray">
+        <p className="text-sm font-body text-hero-black">
           © 2026 All rights reserved.
         </p>
       </div>
