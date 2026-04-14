@@ -20,8 +20,6 @@ export default {
       colors: {
         'hero-black': '#000000',
         'hero-gray': '#6F6F6F',
-        'hero-dark': '#3A3A3A',
-        'hero-mid': '#4A4A4A',
         'hero-white': '#FFFFFF',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
