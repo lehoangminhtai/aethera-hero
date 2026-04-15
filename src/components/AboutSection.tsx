@@ -5,37 +5,33 @@ const AboutSection: React.FC = () => {
     <section id="about" className="relative z-10 px-8 py-32 max-w-7xl mx-auto">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
         <div>
-          <p className="text-sm font-body text-hero-black tracking-widest uppercase mb-4">About</p>
-          <h2 className="font-display text-4xl sm:text-5xl md:text-6xl text-hero-black mb-8" style={{ letterSpacing: '-1.5px' }}>
-            The person behind<br />
-            <span className="text-hero-black italic">the code.</span>
+           <h2 className="font-display text-4xl sm:text-5xl md:text-6xl text-hero-black mb-8" style={{ letterSpacing: '-1.5px' }}>
+            Introduce<br />
+            <span className="text-hero-black italic">Lê Hoàng Minh Tài</span>
           </h2>
         </div>
 
         <div className="space-y-6">
           <p className="font-body text-hero-black leading-relaxed text-lg">
-            I'm a full-stack developer with 6+ years of experience building digital products that people love to use. My approach combines technical precision with a deep appreciation for design and user experience.
+            I am <strong>Lê Hoàng Minh Tài</strong>, a full-stack developer with over 1 years of experience building web products and SaaS platforms. I specialize in React, TypeScript, Node.js, microservices architecture, and user experience.
           </p>
           <p className="font-body text-hero-black leading-relaxed">
-            Previously, I've worked with startups and agencies across fintech, health-tech, and SaaS, shipping products used by millions. I believe great software sits at the intersection of engineering rigor and creative intuition.
+            I have partnered with startups, fintech companies, and health-tech teams to deliver high-performance, scalable applications that drive measurable business outcomes. My work focuses on performance, accessibility, and security.
           </p>
           <p className="font-body text-hero-black leading-relaxed">
-            When I'm not coding, you'll find me exploring generative art, contributing to open-source projects, or experimenting with new frameworks before they hit the mainstream.
+            Outside of development, I maintain open-source projects on GitHub and share insights about React, TypeScript, and Node.js on LinkedIn. My personal brand is LHMT, where I turn digital ideas into real products.
           </p>
 
           <div className="flex gap-8 pt-4">
             <div>
-              <p className="font-display text-3xl text-hero-black">6+</p>
+              <p className="font-display text-3xl text-hero-black">1+</p>
               <p className="text-sm font-body text-hero-black">Years Experience</p>
             </div>
             <div>
-              <p className="font-display text-3xl text-hero-black">40+</p>
+              <p className="font-display text-3xl text-hero-black">5+</p>
               <p className="text-sm font-body text-hero-black">Projects Delivered</p>
             </div>
-            <div>
-              <p className="font-display text-3xl text-hero-black">12</p>
-              <p className="text-sm font-body text-hero-black">Happy Clients</p>
-            </div>
+           
           </div>
         </div>
       </div>

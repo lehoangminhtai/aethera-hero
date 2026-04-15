@@ -2,28 +2,32 @@ import React from 'react';
 
 const projects = [
   {
-    title: 'CloudSync Dashboard',
-    description: 'Real-time analytics platform with live data streaming, interactive charts, and team collaboration features.',
-    tags: ['React', 'TypeScript', 'WebSocket', 'D3.js'],
+    title: 'aethera-hero',
+    description: 'Personal portfolio built with React, TypeScript, Tailwind, and Vite. This live site highlights UX, motion, and responsive design.',
+    tags: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
     year: '2026',
+    url: 'https://github.com/lehoangminhtai/aethera-hero',
   },
   {
-    title: 'Lumina Design System',
-    description: 'A comprehensive component library powering 12+ products with accessible, performant UI primitives.',
-    tags: ['React', 'Storybook', 'Tailwind CSS', 'a11y'],
+    title: 'BookShop',
+    description: 'Full-stack bookstore platform with frontend and backend services, Docker deployment, and recommendation features.',
+    tags: ['JavaScript', 'Docker', 'Node.js', 'React'],
     year: '2025',
+    url: 'https://github.com/lehoangminhtai/BookShop',
   },
   {
-    title: 'Vaultline API',
-    description: 'High-throughput REST & GraphQL API serving 2M+ requests/day with edge caching and rate limiting.',
-    tags: ['Node.js', 'PostgreSQL', 'Redis', 'GraphQL'],
-    year: '2025',
-  },
-  {
-    title: 'Meridian Mobile',
-    description: 'Cross-platform fitness tracking app with offline-first architecture and real-time sync.',
-    tags: ['React Native', 'SQLite', 'TypeScript'],
+    title: 'toeicpracticeapp',
+    description: 'Android TOEIC practice app using Java, Firebase, and SQLite. Includes user login, listening practice, vocabulary drills, and admin CRUD.',
+    tags: ['Java', 'Firebase', 'Android', 'SQLite'],
     year: '2024',
+    url: 'https://github.com/lehoangminhtai/toeicpracticeapp',
+  },
+  {
+    title: 'DoAnWinform',
+    description: 'C# WinForms student management system with database-backed learning tools and CRUD administration.',
+    tags: ['C#', 'WinForms', 'SQL', 'Desktop'],
+    year: '2024',
+    url: 'https://github.com/lehoangminhtai/DoAnWinform',
   },
 ];
 
@@ -39,12 +43,17 @@ const ProjectsSection: React.FC = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {projects.map((project) => (
-          <div
+          <a
             key={project.title}
-            className=" group border border-border rounded-2xl p-8 transition-all duration-300 hover:border-hero-black/20 hover:shadow-lg cursor-pointer"
+            href={project.url}
+            target="_blank"
+            rel="noreferrer"
+            className="group block border border-border rounded-2xl p-8 transition-all duration-300 hover:border-hero-black/20 hover:shadow-lg cursor-pointer"
           >
             <div className="flex items-start justify-between mb-4">
-              <h3 className="font-display text-2xl text-hero-black">{project.title}</h3>
+              <h3 className="font-display text-2xl text-hero-black group-hover:text-hero-black/80 transition-colors">
+                {project.title}
+              </h3>
               <span className="text-sm font-body text-hero-black">{project.year}</span>
             </div>
             <p className="font-body text-hero-black leading-relaxed mb-6">{project.description}</p>
@@ -58,7 +67,7 @@ const ProjectsSection: React.FC = () => {
                 </span>
               ))}
             </div>
-          </div>
+          </a>
         ))}
       </div>
     </section>

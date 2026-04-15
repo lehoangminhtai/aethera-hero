@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
     <nav className="relative z-10 w-full">
       <div className="flex items-center justify-between px-8 py-6 max-w-7xl mx-auto">
         <a href="/" className="font-display text-3xl tracking-tight text-hero-black">
-          Aethera<sup className="text-sm align-super">®</sup>
+          Le Hoang Minh Tai<sup className="text-sm align-super">®</sup>
         </a>
 
         <ul className="hidden md:flex items-center gap-8">

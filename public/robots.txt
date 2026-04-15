@@ -12,3 +12,6 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+Sitemap: https://aethera-hero-three.vercel.app/sitemap.xml
+Host: aethera-hero-three.vercel.app
