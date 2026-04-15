@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+
+  <!-- BACKGROUND -->
+  <rect width="1200" height="630" fill="#0b0f14"/>
+
+  <!-- subtle grid -->
+  <g opacity="0.05">
+    <path d="M0 100 H1200 M0 200 H1200 M0 300 H1200 M0 400 H1200 M0 500 H1200" stroke="#ffffff"/>
+    <path d="M200 0 V630 M400 0 V630 M600 0 V630 M800 0 V630 M1000 0 V630" stroke="#ffffff"/>
+  </g>
+
+  <!-- LEFT SIDE -->
+  <g transform="translate(90,150)">
+
+    <text x="0" y="0" font-family="Arial" font-size="38" fill="#9ca3af">
+      Portfolio
+    </text>
+
+    <text x="0" y="100" font-family="Arial" font-size="72" fill="#ffffff">
+      Lê Hoàng Minh Tài
+    </text>
+
+    <text x="0" y="170" font-family="Arial" font-size="32" fill="#9ca3af">
+      Full-stack Developer
+    </text>
+
+    <text x="0" y="240" font-family="monospace" font-size="22" fill="#d1d5db">
+      React · TypeScript · Nextjs · Docker
+    </text>
+
+    <rect x="0" y="270" width="160" height="4" fill="#ffffff"/>
+
+    <text x="0" y="340" font-family="monospace" font-size="20" fill="#6b7280">
+      portfolio-le-hoang-minh-tai.vercel.app
+    </text>
+
+  </g>
+
+  <!-- RIGHT SIDE -->
+  <g transform="translate(720,120)">
+
+    <!-- CARD -->
+    <rect width="430" height="380" rx="28" fill="#111827" stroke="#1f2937"/>
+
+    <text x="40" y="70" font-family="Arial" font-size="30" fill="#ffffff">
+      Contact
+    </text>
+
+    <!-- LinkedIn -->
+    <g transform="translate(40,130)">
+      <circle cx="22" cy="22" r="22" fill="#ffffff" opacity="0.12"/>
+
+      <path fill="#ffffff" transform="translate(12,12) scale(0.95)"
+        d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7 0h4.8v2.2h.1c.7-1.3 2.4-2.6 5-2.6 5.3 0 6.3 3.5 6.3 8v8.4h-5V17c0-2.1 0-4.8-3-4.8s-3.5 2.3-3.5 4.7V24H7V8z"/>
+
+      <text x="60" y="28" font-family="Arial" font-size="20" fill="#d1d5db">
+        linkedin.com/in/lehoangminhtai
+      </text>
+    </g>
+
+    <!-- GitHub -->
+    <g transform="translate(40,200)">
+      <circle cx="22" cy="22" r="22" fill="#ffffff" opacity="0.12"/>
+
+      <path fill="#ffffff" transform="translate(10,10) scale(0.95)"
+        d="M12 .5C5.37.5 0 5.97 0 12.82c0 5.47 3.44 10.11 8.2 11.75.6.12.82-.27.82-.6v-2.1c-3.34.75-4.04-1.65-4.04-1.65-.55-1.45-1.34-1.83-1.34-1.83-1.1-.78.08-.77.08-.77 1.22.09 1.86 1.29 1.86 1.29 1.08 1.9 2.83 1.35 3.52 1.03.11-.8.42-1.35.76-1.66-2.66-.31-5.47-1.38-5.47-6.14 0-1.36.47-2.48 1.24-3.36-.12-.31-.54-1.58.12-3.3 0 0 1.01-.33 3.3 1.28a11.2 11.2 0 0 1 6 0c2.28-1.61 3.29-1.28 3.29-1.28.66 1.72.24 2.99.12 3.3.77.88 1.24 2 1.24 3.36 0 4.77-2.82 5.82-5.5 6.12.43.38.81 1.1.81 2.22v3.29c0 .33.22.73.83.6C20.56 22.93 24 18.29 24 12.82 24 5.97 18.63.5 12 .5z"/>
+
+      <text x="60" y="28" font-family="Arial" font-size="20" fill="#d1d5db">
+        github.com/lehoangminhtai
+      </text>
+    </g>
+
+    <!-- Email -->
+    <g transform="translate(40,270)">
+      <circle cx="22" cy="22" r="22" fill="#ffffff" opacity="0.12"/>
+      <text x="16" y="28" font-size="18" fill="#ffffff">@</text>
+
+      <text x="60" y="28" font-family="Arial" font-size="20" fill="#d1d5db">
+        21102003tai@gmail.com
+      </text>
+    </g>
+
+    <!-- Phone -->
+    <g transform="translate(40,330)">
+      <circle cx="22" cy="22" r="22" fill="#ffffff" opacity="0.12"/>
+      <text x="15" y="28" font-size="18" fill="#ffffff">☎</text>
+
+      <text x="60" y="28" font-family="Arial" font-size="20" fill="#d1d5db">
+        +84 326 344 084
+      </text>
+    </g>
+
+  </g>
+
+</svg>
