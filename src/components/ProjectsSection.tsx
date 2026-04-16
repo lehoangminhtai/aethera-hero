@@ -8,6 +8,13 @@ const projects = [
     year: '2026',
     url: 'https://github.com/lehoangminhtai/aethera-hero',
   },
+   {
+    title: 'Microservices Fintech Platform',
+    description: 'Full-stack fintech system with Kafka event streaming, JWT authentication, Saga pattern transactions, and real-time Socket.IO updates.',
+    tags: ['Node.js', 'Kafka', 'PostgreSQL', 'Docker', 'Microservices'],
+    year: '2026',
+    url: '/project',
+  },
   {
     title: 'BookShop',
     description: 'Full-stack bookstore platform with frontend and backend services, Docker deployment, and recommendation features.',
@@ -22,13 +29,7 @@ const projects = [
     year: '2024',
     url: 'https://github.com/lehoangminhtai/toeicpracticeapp',
   },
-  {
-    title: 'DoAnWinform',
-    description: 'C# WinForms student management system with database-backed learning tools and CRUD administration.',
-    tags: ['C#', 'WinForms', 'SQL', 'Desktop'],
-    year: '2024',
-    url: 'https://github.com/lehoangminhtai/DoAnWinform',
-  },
+ 
 ];
 
 const ProjectsSection: React.FC = () => {
